@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20D444A31F6E3094008753FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D444A21F6E3094008753FC /* AppDelegate.swift */; };
+		20D444A51F6E3094008753FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D444A41F6E3094008753FC /* ViewController.swift */; };
+		20D444A81F6E3094008753FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20D444A61F6E3094008753FC /* Main.storyboard */; };
+		20D444AA1F6E3094008753FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20D444A91F6E3094008753FC /* Assets.xcassets */; };
+		20D444AD1F6E3094008753FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20D444AB1F6E3094008753FC /* LaunchScreen.storyboard */; };
+		20D444B81F6E3094008753FC /* ShorecrestMapsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D444B71F6E3094008753FC /* ShorecrestMapsTests.swift */; };
+		20D444C31F6E3094008753FC /* ShorecrestMapsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D444C21F6E3094008753FC /* ShorecrestMapsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20D444B41F6E3094008753FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20D444971F6E3093008753FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20D4449E1F6E3094008753FC;
+			remoteInfo = ShorecrestMaps;
+		};
+		20D444BF1F6E3094008753FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20D444971F6E3093008753FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20D4449E1F6E3094008753FC;
+			remoteInfo = ShorecrestMaps;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		20D4449F1F6E3094008753FC /* ShorecrestMaps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShorecrestMaps.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20D444A21F6E3094008753FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		20D444A41F6E3094008753FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		20D444A71F6E3094008753FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		20D444A91F6E3094008753FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20D444AC1F6E3094008753FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		20D444AE1F6E3094008753FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20D444B31F6E3094008753FC /* ShorecrestMapsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShorecrestMapsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20D444B71F6E3094008753FC /* ShorecrestMapsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShorecrestMapsTests.swift; sourceTree = "<group>"; };
+		20D444B91F6E3094008753FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20D444BE1F6E3094008753FC /* ShorecrestMapsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShorecrestMapsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20D444C21F6E3094008753FC /* ShorecrestMapsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShorecrestMapsUITests.swift; sourceTree = "<group>"; };
+		20D444C41F6E3094008753FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20D4449C1F6E3094008753FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20D444B01F6E3094008753FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20D444BB1F6E3094008753FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20D444961F6E3093008753FC = {
+			isa = PBXGroup;
+			children = (
+				20D444A11F6E3094008753FC /* ShorecrestMaps */,
+				20D444B61F6E3094008753FC /* ShorecrestMapsTests */,
+				20D444C11F6E3094008753FC /* ShorecrestMapsUITests */,
+				20D444A01F6E3094008753FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		20D444A01F6E3094008753FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20D4449F1F6E3094008753FC /* ShorecrestMaps.app */,
+				20D444B31F6E3094008753FC /* ShorecrestMapsTests.xctest */,
+				20D444BE1F6E3094008753FC /* ShorecrestMapsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20D444A11F6E3094008753FC /* ShorecrestMaps */ = {
+			isa = PBXGroup;
+			children = (
+				20D444A21F6E3094008753FC /* AppDelegate.swift */,
+				20D444A41F6E3094008753FC /* ViewController.swift */,
+				20D444A61F6E3094008753FC /* Main.storyboard */,
+				20D444A91F6E3094008753FC /* Assets.xcassets */,
+				20D444AB1F6E3094008753FC /* LaunchScreen.storyboard */,
+				20D444AE1F6E3094008753FC /* Info.plist */,
+			);
+			path = ShorecrestMaps;
+			sourceTree = "<group>";
+		};
+		20D444B61F6E3094008753FC /* ShorecrestMapsTests */ = {
+			isa = PBXGroup;
+			children = (
+				20D444B71F6E3094008753FC /* ShorecrestMapsTests.swift */,
+				20D444B91F6E3094008753FC /* Info.plist */,
+			);
+			path = ShorecrestMapsTests;
+			sourceTree = "<group>";
+		};
+		20D444C11F6E3094008753FC /* ShorecrestMapsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				20D444C21F6E3094008753FC /* ShorecrestMapsUITests.swift */,
+				20D444C41F6E3094008753FC /* Info.plist */,
+			);
+			path = ShorecrestMapsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20D4449E1F6E3094008753FC /* ShorecrestMaps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20D444C71F6E3094008753FC /* Build configuration list for PBXNativeTarget "ShorecrestMaps" */;
+			buildPhases = (
+				20D4449B1F6E3094008753FC /* Sources */,
+				20D4449C1F6E3094008753FC /* Frameworks */,
+				20D4449D1F6E3094008753FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShorecrestMaps;
+			productName = ShorecrestMaps;
+			productReference = 20D4449F1F6E3094008753FC /* ShorecrestMaps.app */;
+			productType = "com.apple.product-type.application";
+		};
+		20D444B21F6E3094008753FC /* ShorecrestMapsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20D444CA1F6E3094008753FC /* Build configuration list for PBXNativeTarget "ShorecrestMapsTests" */;
+			buildPhases = (
+				20D444AF1F6E3094008753FC /* Sources */,
+				20D444B01F6E3094008753FC /* Frameworks */,
+				20D444B11F6E3094008753FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20D444B51F6E3094008753FC /* PBXTargetDependency */,
+			);
+			name = ShorecrestMapsTests;
+			productName = ShorecrestMapsTests;
+			productReference = 20D444B31F6E3094008753FC /* ShorecrestMapsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		20D444BD1F6E3094008753FC /* ShorecrestMapsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20D444CD1F6E3094008753FC /* Build configuration list for PBXNativeTarget "ShorecrestMapsUITests" */;
+			buildPhases = (
+				20D444BA1F6E3094008753FC /* Sources */,
+				20D444BB1F6E3094008753FC /* Frameworks */,
+				20D444BC1F6E3094008753FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20D444C01F6E3094008753FC /* PBXTargetDependency */,
+			);
+			name = ShorecrestMapsUITests;
+			productName = ShorecrestMapsUITests;
+			productReference = 20D444BE1F6E3094008753FC /* ShorecrestMapsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20D444971F6E3093008753FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Kalju Jake Nekvasil";
+				TargetAttributes = {
+					20D4449E1F6E3094008753FC = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					20D444B21F6E3094008753FC = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 20D4449E1F6E3094008753FC;
+					};
+					20D444BD1F6E3094008753FC = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 20D4449E1F6E3094008753FC;
+					};
+				};
+			};
+			buildConfigurationList = 20D4449A1F6E3093008753FC /* Build configuration list for PBXProject "ShorecrestMaps" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20D444961F6E3093008753FC;
+			productRefGroup = 20D444A01F6E3094008753FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20D4449E1F6E3094008753FC /* ShorecrestMaps */,
+				20D444B21F6E3094008753FC /* ShorecrestMapsTests */,
+				20D444BD1F6E3094008753FC /* ShorecrestMapsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20D4449D1F6E3094008753FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20D444AD1F6E3094008753FC /* LaunchScreen.storyboard in Resources */,
+				20D444AA1F6E3094008753FC /* Assets.xcassets in Resources */,
+				20D444A81F6E3094008753FC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20D444B11F6E3094008753FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20D444BC1F6E3094008753FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20D4449B1F6E3094008753FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20D444A51F6E3094008753FC /* ViewController.swift in Sources */,
+				20D444A31F6E3094008753FC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20D444AF1F6E3094008753FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20D444B81F6E3094008753FC /* ShorecrestMapsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20D444BA1F6E3094008753FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20D444C31F6E3094008753FC /* ShorecrestMapsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		20D444B51F6E3094008753FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20D4449E1F6E3094008753FC /* ShorecrestMaps */;
+			targetProxy = 20D444B41F6E3094008753FC /* PBXContainerItemProxy */;
+		};
+		20D444C01F6E3094008753FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20D4449E1F6E3094008753FC /* ShorecrestMaps */;
+			targetProxy = 20D444BF1F6E3094008753FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		20D444A61F6E3094008753FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20D444A71F6E3094008753FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		20D444AB1F6E3094008753FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20D444AC1F6E3094008753FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20D444C51F6E3094008753FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		20D444C61F6E3094008753FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20D444C81F6E3094008753FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShorecrestMaps/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nekvasilkal.ShorecrestMaps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		20D444C91F6E3094008753FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShorecrestMaps/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nekvasilkal.ShorecrestMaps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		20D444CB1F6E3094008753FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ShorecrestMapsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nekvasilkal.ShorecrestMapsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShorecrestMaps.app/ShorecrestMaps";
+			};
+			name = Debug;
+		};
+		20D444CC1F6E3094008753FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ShorecrestMapsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nekvasilkal.ShorecrestMapsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShorecrestMaps.app/ShorecrestMaps";
+			};
+			name = Release;
+		};
+		20D444CE1F6E3094008753FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ShorecrestMapsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nekvasilkal.ShorecrestMapsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ShorecrestMaps;
+			};
+			name = Debug;
+		};
+		20D444CF1F6E3094008753FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ShorecrestMapsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nekvasilkal.ShorecrestMapsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ShorecrestMaps;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20D4449A1F6E3093008753FC /* Build configuration list for PBXProject "ShorecrestMaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20D444C51F6E3094008753FC /* Debug */,
+				20D444C61F6E3094008753FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20D444C71F6E3094008753FC /* Build configuration list for PBXNativeTarget "ShorecrestMaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20D444C81F6E3094008753FC /* Debug */,
+				20D444C91F6E3094008753FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		20D444CA1F6E3094008753FC /* Build configuration list for PBXNativeTarget "ShorecrestMapsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20D444CB1F6E3094008753FC /* Debug */,
+				20D444CC1F6E3094008753FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		20D444CD1F6E3094008753FC /* Build configuration list for PBXNativeTarget "ShorecrestMapsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20D444CE1F6E3094008753FC /* Debug */,
+				20D444CF1F6E3094008753FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20D444971F6E3093008753FC /* Project object */;
+}
