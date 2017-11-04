@@ -14,8 +14,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions:
+        [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        let deepGreenColor = UIColor(red: 4.0/255, green: 64.0/255, blue: 42.0/255, alpha: 1.0)
+        let dullYellowColor = UIColor(red: 255.0/255, green: 248.0/255, blue: 223.0/255, alpha: 1.0)
+        
+        UINavigationBar.appearance().barTintColor = deepGreenColor
+       // UINavigationBar.appearance().tintColor = dullYellowColor
+
+        let attrs = [
+            NSAttributedStringKey.foregroundColor: dullYellowColor,
+            NSAttributedStringKey.font: UIFont(name: "Kohinoor Devanagari", size: 20)!
+        ]
+        UINavigationBar.appearance().titleTextAttributes = attrs;
+        
         return true
     }
 

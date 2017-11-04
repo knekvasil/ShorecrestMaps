@@ -11,7 +11,7 @@ import MapKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var mapView: MKMapView!
+    
     
 //    let zoomLocation = CLLocation(latitude: 27.819024, longitude: -82.633971)
     let regionRadius: CLLocationDistance = 1000
